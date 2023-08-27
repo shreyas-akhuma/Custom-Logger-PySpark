@@ -1,0 +1,25 @@
+ This is a print statement
+ This is another
+ ===== Printing the schema of a dataframe =====
+ root
+ |-- language: string (nullable = true)
+ |-- fee: long (nullable = true)
+
+ ===== Printing a few rows of a dataframe =====
+ +--------+-----+
+|language|  fee|
++--------+-----+
+|    Java|20000|
+|  Python|10000|
++--------+-----+
+only showing top 2 rows
+
+ ===== Printing selected rows and disabling truncation of data in a dataframe =====
+ +--------+-----+
+|language|fee  |
++--------+-----+
+|Java    |20000|
+|Python  |10000|
+|Scala   |10000|
++--------+-----+
+
